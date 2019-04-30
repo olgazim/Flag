@@ -165,7 +165,10 @@ class IsraelFlag: UIView {
         firstBlueBandPath.addLine(to: blueBandFirstX2Y2)
         firstBlueBandPath.addLine(to: blueBandFirstX2Y1)
         firstBlueBandPath.addLine(to: blueBandFirstX1Y1)
-        UIColor.blue.setFill()
+        UIColor(displayP3Red: 0,
+                green: 0.0824,
+                blue: 0.7294,
+                alpha: 1).setFill()
         firstBlueBandPath.fill()
         return firstBlueBandPath
     }
@@ -178,7 +181,10 @@ class IsraelFlag: UIView {
         secondBlueBandPath.addLine(to: blueBandSecondX2Y2)
         secondBlueBandPath.addLine(to: blueBandSecondX2Y1)
         secondBlueBandPath.addLine(to: blueBandSecondX1Y1)
-        UIColor.blue.setFill()
+        UIColor(displayP3Red: 0,
+                green: 0.0824,
+                blue: 0.7294,
+                alpha: 1).setFill()
         secondBlueBandPath.fill()
         return secondBlueBandPath
     }
@@ -189,7 +195,7 @@ class IsraelFlag: UIView {
         firstTrianglePath.move(to: firstTriangleNodeX1Y1)
         firstTrianglePath.addLine(to: firstTriangleNodeX2Y2)
         firstTrianglePath.addLine(to: firstTriangleNodeX3Y2)
-        firstTrianglePath.addLine(to: firstTriangleNodeX1Y1)
+        firstTrianglePath.close()
         firstTrianglePath.lineWidth = 4
         return firstTrianglePath
     }
@@ -200,7 +206,8 @@ class IsraelFlag: UIView {
         secondTrianglePath.move(to: secondTriangleNodeX1Y1)
         secondTrianglePath.addLine(to: secondTriangleNodeX2Y2)
         secondTrianglePath.addLine(to: secondTriangleNodeX3Y2)
-        secondTrianglePath.addLine(to: secondTriangleNodeX1Y1)
+        secondTrianglePath.close()
+        
         secondTrianglePath.lineWidth = 4
         return secondTrianglePath
     }
@@ -209,9 +216,11 @@ class IsraelFlag: UIView {
         
         UIColor.white.setStroke()
         pathForWhiteBand().stroke()
-        UIColor.blue.setStroke()
+        UIColor(displayP3Red: 0,
+                green: 0.0824,
+                blue: 0.7294,
+                alpha: 1).setStroke()
         pathForFirstBlueBand().stroke()
-        UIColor.blue.setStroke()
         pathForSecondBlueBand().stroke()
         pathforFirstTriangle().stroke()
         pathforSecondTriangle().stroke()
