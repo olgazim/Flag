@@ -12,6 +12,7 @@
 		B8CF18042277854D00463593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CF18022277854D00463593 /* Main.storyboard */; };
 		B8CF18062277855200463593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8CF18052277855200463593 /* Assets.xcassets */; };
 		B8CF18092277855200463593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CF18072277855200463593 /* LaunchScreen.storyboard */; };
+		B8CF18132277A97700463593 /* IsraelFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CF18122277A97700463593 /* IsraelFlag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B8CF18052277855200463593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8CF18082277855200463593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8CF180A2277855200463593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8CF18122277A97700463593 /* IsraelFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsraelFlag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				B8CF17FE2277854D00463593 /* AppDelegate.swift */,
 				B8CF18002277854D00463593 /* ViewController.swift */,
 				B8CF18022277854D00463593 /* Main.storyboard */,
+				B8CF18122277A97700463593 /* IsraelFlag.swift */,
 				B8CF18052277855200463593 /* Assets.xcassets */,
 				B8CF18072277855200463593 /* LaunchScreen.storyboard */,
 				B8CF180A2277855200463593 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8CF18012277854D00463593 /* ViewController.swift in Sources */,
+				B8CF18132277A97700463593 /* IsraelFlag.swift in Sources */,
 				B8CF17FF2277854D00463593 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
